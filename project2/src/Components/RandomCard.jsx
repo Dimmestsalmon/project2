@@ -16,7 +16,7 @@ const RandomCard = () => {
   } else{
       return(
         <div className = "cardImage">
-        <img src ={randomCard.image_uris.normal} alt = {randomCard.name} />
+        <img src ={randomCard.image_uris.png} alt = {randomCard.name} />
         </div>
       )
   }

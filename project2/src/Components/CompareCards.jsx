@@ -22,10 +22,10 @@ const CompareCards = () =>{
   return (
     <>
     <div className = "cardImage">
-        <img src ={cardOne.image_uris.normal} alt = {cardOne.name} />
+        <img src ={cardOne.image_uris.png} alt = {cardOne.name} />
       </div>
       <div className = "cardImage">
-        <img src ={cardTwo.image_uris.normal} alt = {cardTwo.name} />
+        <img src ={cardTwo.image_uris.png} alt = {cardTwo.name} />
         </div>
     </>
   )

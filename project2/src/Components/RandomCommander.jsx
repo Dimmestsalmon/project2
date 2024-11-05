@@ -17,7 +17,7 @@ const RandomCommander = () => {
   else {
       return(
         <div className = "cardImage">
-        <img src ={randomCommander.image_uris.normal} alt = {randomCommander.name} />
+        <img src ={randomCommander.image_uris.png} alt = {randomCommander.name} />
         </div>
       )
   }
